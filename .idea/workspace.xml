@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4bb76c-3bc5-449e-b7d6-0a9a791d7345" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/db.sqlite3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.idea/django-template.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/Procfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/apps.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/config/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/config/jinja2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/config/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/config/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/config/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/runtime.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/templates/jinja2/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../django-template/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../django-template/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../django-template/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
     </list>
     <ignored path="DjangoBlank110.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,8 +64,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../django-template/templates/jinja2/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="528">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -130,6 +112,7 @@
         <option value="$PROJECT_DIR$/../django-template/config/urls.py" />
         <option value="$PROJECT_DIR$/../django-template/templates/jinja2/base.html" />
         <option value="$PROJECT_DIR$/../django-template/requirements.txt" />
+        <option value="$PROJECT_DIR$/../django-template/.gitignore" />
       </list>
     </option>
   </component>
@@ -214,6 +197,12 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$" />
+    </excluded-roots>
   </component>
   <component name="RunManager" selected="Django server.runserver">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -504,13 +493,21 @@
       <option name="presentableId" value="Default" />
       <updated>1467847393328</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1467853060780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467853060780</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2882" height="2026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25794798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25794798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@django-template" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21239437" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -534,6 +531,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -680,10 +681,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../django-template/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../django-template/templates/jinja2/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="528">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
       </provider>
