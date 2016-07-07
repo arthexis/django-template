@@ -1,0 +1,8 @@
+{
+  "name": "Django 1.10 Template",
+  "description": "",
+  "image": "heroku/python",
+  "repository": "https://github.com/arthexis/django-template",
+  "keywords": ["python", "django" ],
+  "addons": [ "heroku-postgresql" ]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+      <title>{% block title %}{{ settings.SITE_HEAD_TITLE }}{% endblock %}</title>
+      <link rel="stylesheet" href="{% block style %}style.css{% endblock %}" />
+    {% endblock head %}
+    {% block extrahead %}{% endblock %}
+</head>
+<body>
+    {% block body %}
+      <nav>
+        {% block nav %}
+          {% block admin %}
+            <a href="{{ url('admin:index') }}">Admin</a>
+          {% endblock admin %}
+        {% endblock %}
+      </nav>
+      <main>{% block main %}{% endblock %}</main>
+      <footer>{% block footer %}{% endblock %}</footer>
+    {% endblock body %}
+</body>
+</html>
+
