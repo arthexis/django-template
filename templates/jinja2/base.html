@@ -3,7 +3,12 @@
 <head>
     {% block head %}
       <title>{% block title %}{{ settings.SITE_HEAD_TITLE }}{% endblock %}</title>
-      <link rel="stylesheet" href="{% block style %}style.css{% endblock %}" />
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+      <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"
+              integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="
+              crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     {% endblock head %}
     {% block extrahead %}{% endblock %}
 </head>

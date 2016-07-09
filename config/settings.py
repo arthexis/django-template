@@ -24,6 +24,7 @@ SECRET_KEY = 'ubzf7c56b%%%=!%6mrvd6_v&^rz^_9aoi9oih@e)3%hwslf_08'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+PRODUCTION = False
 
 ALLOWED_HOSTS = []
 
@@ -37,7 +38,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.facebook',
+    'localflavor',
+    'debug_toolbar',
+    'store',
 ]
+
+SITE_ID = 1
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.security.SecurityMiddleware',
@@ -132,6 +143,15 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+
+# django-allauth
+# https://django-allauth.readthedocs.io/en/latest/installation.html#django
+
+AUTHENTICATION_BACKENDS = {
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+}
 
 
 # Site Customization settings
