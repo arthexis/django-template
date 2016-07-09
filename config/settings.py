@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'whitenoise',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -59,6 +60,7 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -154,7 +156,10 @@ AUTHENTICATION_BACKENDS = {
 }
 
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
 # Site Customization settings
 
-SITE_HEAD_TITLE = 'Django Template'
+SITE_HEAD_TITLE = 'ARTHEXIS.COM'
 
